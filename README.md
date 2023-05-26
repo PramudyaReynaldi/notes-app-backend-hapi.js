@@ -9,13 +9,13 @@
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/PramudyaReynaldi/notes-app-backend-hapi.js.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd notes-app-backend-hapi.js
 ```
 
 Install dependencies
@@ -24,11 +24,16 @@ Install dependencies
   npm install
 ```
 
+Npm init
+
+```bash
+  npm init -y
+```
+
 Start the server
 
 ```bash
-  npm run start
-```
+  npm run start:dev
 ```
 
 
@@ -38,33 +43,33 @@ Start the server
 
 #### Get all items
 
-```http
+```bash
   GET /notes
 ```
 
 
 #### Get item
 
-```http
+```bash
   GET /notes/{id}
 ```
 
 
 #### Post item
 
-```http
+```bash
   POST /notes
 ```
 
 #### Delete item
 
-```http
+```bash
   Delete /notes/{id}
 ```
 
 #### Update item
 
-```http
+```bash
   PUT /notes/{id}
 ```
 

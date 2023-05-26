@@ -2,6 +2,10 @@
 # Notes App Backend Hapi
 
 
+## Screenshots
+
+![App Screenshot](https://i.postimg.cc/KYp6TnnR/Cuplikan-layar-dari-2023-05-26-17-25-30.png)
+
 
 
 ## Run Locally

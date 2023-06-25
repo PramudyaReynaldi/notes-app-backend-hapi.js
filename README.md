@@ -32,12 +32,6 @@ Install dependencies
   npm install
 ```
 
-Npm init
-
-```bash
-  npm init -y
-```
-
 Start the server
 
 ```bash

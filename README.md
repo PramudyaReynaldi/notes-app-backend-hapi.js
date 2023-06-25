@@ -5,7 +5,10 @@
 ## Screenshots
 
 ![App Screenshot](https://i.ibb.co/1szmhhW/Cuplikan-layar-dari-2023-06-25-22-32-37.png)
+
 ![App Screenshot](https://i.ibb.co/K55KJMS/Cuplikan-layar-dari-2023-06-25-22-37-34.png)
+
+![App Screenshot](https://i.ibb.co/Thq6s5X/Cuplikan-layar-dari-2023-06-25-22-39-45.png)
 
 
 

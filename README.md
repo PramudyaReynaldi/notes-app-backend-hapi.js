@@ -4,7 +4,7 @@
 
 ## Screenshots
 
-![App Screenshot](https://i.postimg.cc/KYp6TnnR/Cuplikan-layar-dari-2023-05-26-17-25-30.png)
+![App Screenshot](https://i.ibb.co/1szmhhW/Cuplikan-layar-dari-2023-06-25-22-32-37.png)
 
 
 

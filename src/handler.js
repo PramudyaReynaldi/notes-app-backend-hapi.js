@@ -42,6 +42,7 @@ const addNoteHandler = (request, h) => {
   return response;
 };
 
+// Find all
 const getAllNotesHandler = () => ({
   status: 'success',
   data: {
@@ -49,6 +50,7 @@ const getAllNotesHandler = () => ({
   },
 });
 
+// Find by id
 const getNoteByIdHandler = (request, h) => {
   const { id } = request.params;
 
@@ -71,6 +73,7 @@ const getNoteByIdHandler = (request, h) => {
   return response;
 };
 
+// Update
 const editNoteByHandler = (request, h) => {
   const { id } = request.params;
 
@@ -104,9 +107,27 @@ const editNoteByHandler = (request, h) => {
   return response;
 };
 
+const deleteNoteByHandler = (request, h) => {
+  const { id } = request.params;
+
+  const index = notes.findIndex((note) => note.id === id);
+
+  if (index !== -1) {
+    notes.splice(index, 1);
+    const response = h.response({
+      status: 'success',
+      message: 'Catatan berhasil dihapus',
+    });
+
+    response.code(200);
+    return response;
+  }
+};
+
 module.exports = {
   addNoteHandler,
   getAllNotesHandler,
   getNoteByIdHandler,
   editNoteByHandler,
+  deleteNoteByHandler,
 };
